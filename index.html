@@ -5,11 +5,83 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vitor</title>
+  <title>Portfólio Vitor Hugo</title>
+  <!---Google fonts--->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!--Dev icon fonts-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+  <!--CSS do Projeto-->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <h1>Agencia Noah</h1>
+  <main id="container">
+    <aside id="bio-container">
+      <h2>Vitor Hugo da Rocha</h2>
+      <img id="bio-image" src="img/20170606_223132.jpg" alt="Vitor Hugo da rocha">
+      <p>Ola meu nome e Vitor Hugo e sou <span class="highlight">dev front-end</span></p>
+      <p id="welcome-text">Seja bem vindo!</p>
+      <ul id="social-container">
+        <li><a href="#" target="-blank">
+            <ion-icon name="Logo-linkedin"></ion-icon>
+          </a></li>
+        <li><a href="#" target="-blank">
+            <ion-icon name="Logo-instagram"></ion-icon>
+          </a></li>
+        <li><a href="#" target="-blank">
+            <ion-icon name="Logo-github"></ion-icon>
+          </a></li>
+      </ul>
+      <div id="email-container">
+        <ion-icon name="mail-outline"></ion-icon><a href="mailto:vhrocha17@gmail.com">vhrocha17@gmail.com</a>
+      </div>
+    </aside>
+    <section id="about-container">
+      <h1 id="name">Vitor Hugo</h1>
+      <p id="title"><span class="highlight">dev front-end</span></p>
+      <p id="description">sou um desenvolvedor front-end que gosta de participar da criação do progeto
+        des do <span class="highlight"> design</span> até o <span class="highlight"> deploy da aplicação</span></p>
+      <p id="description">tambem sou um desenvolvedor <span class="highlight">Back-end</span>com o<span
+          class="highlight">
+          o Node.js e php</span></p>
+      <a href="" id="btn-projects">
+        <ion-icon name="share-social-outline"><span>Ver Projeto</span></ion-icon>
+      </a>
+      <h2 id="skills-section-title">Minhas Linguagens</h2>
+      <p id="description">Conheça as tecnologias que domino</p>
+      <div id="skills-container">
+        <div id="skill-box">
+          <p class="skill-title">front-end</p>
+          <i class="devicon-html5-plain colored"></i>
+          <i class="devicon-css3-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+        </div>
+        <div id="skill-box">
+          <p class="skill-title">Back-end</p>
+          <i class="devicon-php-plain colored"></i>
+          <i class="devicon-nodejs-plain colored"></i>
+        </div>
+        <div id="skill-box">
+          <p class="skill-title">front-end frameworks</p>
+          <i class="devicon-react-plain colored"></i>
+          <i class="devicon-nextjs-plain colored"></i>
+          <i class="devicon-vuejs-plain colored"></i>
+        </div>
+        <div id="skill-box">
+          <p class="skill-title">Design</p>
+          <i class="devicon-figma-plain colored"></i>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--Ion icon-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
